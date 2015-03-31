@@ -1,0 +1,53 @@
+/* OPtional style just for demo page */
+
+@media (min-width: 1200px){
+	.container {
+		width: 1170px;
+	}
+}
+	
+@media (min-width: 992px){
+	.container {
+		width: 970px;
+	}
+}
+
+.col-md-4 {
+	padding-right:20px;
+	padding-left: 20px;
+	margin-bottom:40px;
+}
+
+body {
+	background: #f1f1f1;
+	font-family: 'Open Sans',sans-serif;
+	color: #686868;
+}
+
+.navbar {
+	background: #373737; 
+}
+
+.navbar-header { 
+	width:100%;
+}
+
+.logo {
+	float: left;
+	display: block;
+	width: 123px;
+	height: 18px;
+	padding-top: 10px;
+}
+
+.btn-buynow {
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+	padding-top: 18px;
+}
+
+.well {
+	background: #fff;
+}
